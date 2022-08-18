@@ -1,0 +1,56 @@
+.header-area {
+  padding: 40px 0;
+  &__header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  &__logo {
+    flex-basis: 30%;
+    color: $primary_color;
+  }
+  &__menu {
+    flex-basis: 61%;
+  }
+  &__title {
+    display: inline-block;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  &__menu {
+    flex-basis: 52%;
+  }
+  &__icon {
+    font-size: 50px;
+    padding-right: 10px;
+  }
+  &__box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 20px;
+  }
+  &__item {
+    margin-left: 30px;
+  }
+  &__link {
+    text-transform: capitalize;
+    font-size: 22px;
+    transition: .5s;
+    color: $heading_footer_color;
+    &:hover{
+     color: $primary_color;
+      border-bottom: 1px solid #E64848;
+    }
+  }
+  &__button {
+    padding: 8px 20px;
+    font-size: 14px;
+    text-transform: capitalize;
+    border-radius: 10%;
+    border: none;
+    background-color: $primary_color;
+    color: $white_color;
+  }
+}

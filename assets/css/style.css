@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&family=Recursive:wght@300;400;600&display=swap");
+body {
+  font-family: "Recursive", sans-serif;
+  font-family: "Handlee", cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F0FFF3;
+}
+
+p {
+  font-size: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.3s;
+  color: #333;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+.pt-10 {
+  padding-top: 10px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
+}
+
+.pt-30 {
+  padding-top: 30px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.pb-40 {
+  padding-bottom: 40px;
+}
+
+.pt-40 {
+  padding-top: 40px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
+}
+
+.pt-50 {
+  padding-top: 50px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.pb-60 {
+  padding-bottom: 60px;
+}
+
+.pt-60 {
+  padding-top: 60px;
+}
+
+.mb-60 {
+  margin-bottom: 60px;
+}
+
+.mt-60 {
+  margin-top: 60px;
+}
+
+.pb-70 {
+  padding-bottom: 70px;
+}
+
+.pt-70 {
+  padding-top: 70px;
+}
+
+.mb-70 {
+  margin-bottom: 70px;
+}
+
+.mt-70 {
+  margin-top: 70px;
+}
+
+.pb-80 {
+  padding-bottom: 80px;
+}
+
+.pt-80 {
+  padding-top: 80px;
+}
+
+.mb-80 {
+  margin-bottom: 80px;
+}
+
+.mt-80 {
+  margin-top: 80px;
+}
+
+.pb-90 {
+  padding-bottom: 90px;
+}
+
+.pt-90 {
+  padding-top: 90px;
+}
+
+.mb-90 {
+  margin-bottom: 90px;
+}
+
+.mt-90 {
+  margin-top: 90px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.header-area {
+  padding: 40px 0;
+}
+.header-area__header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.header-area__logo {
+  flex-basis: 30%;
+  color: #11CBD7;
+}
+.header-area__menu {
+  flex-basis: 61%;
+}
+.header-area__title {
+  display: inline-block;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 40px;
+}
+.header-area__menu {
+  flex-basis: 52%;
+}
+.header-area__icon {
+  font-size: 50px;
+  padding-right: 10px;
+}
+.header-area__box {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 20px;
+}
+.header-area__item {
+  margin-left: 30px;
+}
+.header-area__link {
+  text-transform: capitalize;
+  font-size: 22px;
+  transition: 0.5s;
+  color: #FA4659;
+}
+.header-area__link:hover {
+  color: #11CBD7;
+  border-bottom: 1px solid #E64848;
+}
+.header-area__button {
+  padding: 8px 20px;
+  font-size: 14px;
+  text-transform: capitalize;
+  border-radius: 10%;
+  border: none;
+  background-color: #11CBD7;
+  color: #fff;
+}
+
+.banner-area {
+  background-color: #11CBD7;
+}
+.banner-area__banner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.banner-area__content {
+  flex-basis: 58%;
+  padding-top: 6%;
+}
+.banner-area__title {
+  text-transform: capitalize;
+  font-size: 24px;
+  color: #fff;
+  padding: 16px 0;
+}
+.banner-area__heading {
+  font-size: 57px;
+  text-transform: capitalize;
+  color: #fff;
+  padding: 30px 0;
+}
+.banner-area__description {
+  line-height: 30px;
+}
+.banner-area__link {
+  margin: 32px 0;
+  text-transform: capitalize;
+  padding: 12px 16px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 7px;
+  transition: 0.3s;
+}
+.banner-area__link:hover {
+  color: #11CBD7;
+}
+.banner-area__image {
+  flex-basis: 38%;
+}
+.banner-area__photo {
+  border: 10px solid #F0FFF3;
+}/*# sourceMappingURL=style.css.map */
