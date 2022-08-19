@@ -1,0 +1,46 @@
+.title-area {
+  @include title;
+}
+.classes-area {
+  &__classes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  &__single-class {
+    flex-basis: 32%;
+    background-color: $card_color;
+  }
+  &__heading {
+    text-align: center;
+    margin: 20px;
+    font-size: 28px;
+    text-transform: capitalize;
+    color: $heading_footer_color;
+  }
+  &__description {
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+  &__box {
+    text-align: center;
+  }
+  &__item {
+    text-transform: capitalize;
+    font-size: 17px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #AED6E0;
+    padding: 10px;
+  }
+  &__span {
+    font-weight: bold;
+    margin: 0 30px;
+    border-right: 1px solid #AED6E0;
+    padding-right: 8px;
+  }
+  &__btn{
+    @include btn(8px 20px, 16px 0);
+    
+  }
+}
