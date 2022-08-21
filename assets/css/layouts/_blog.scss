@@ -1,0 +1,40 @@
+.blog-area {
+  &__blog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  &__single {
+    flex-basis: 32%;
+    background-color: $card_color;
+  }
+  &__heading {
+    margin: 20px 0;
+    font-size: 27px;
+    text-transform: capitalize;
+    color: $heading_footer_color;
+  }
+  &__box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 15px 0;
+  }
+  &__item {
+    align-items: center;
+    flex-basis: 32%;
+  }
+  &__icon {
+    padding-right: 10px;
+  }
+  &__description {
+    line-height: 30px;
+    padding: 5px;
+  }
+  &__btn{
+    @include btn(12px 16px, 20px 0,$primary_color)
+  }
+}
+
+
+

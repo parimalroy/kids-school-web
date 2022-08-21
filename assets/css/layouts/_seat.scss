@@ -1,0 +1,65 @@
+
+.seat-area{
+    &__seat {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      &__content {
+        flex-basis: 58%;
+      }
+      &__box {
+        margin: 10px 0;
+      }
+      &__item {
+        padding: 7px 0;
+      }
+      &__link {
+        font-size: 20px;
+      }
+
+      &__form {
+        flex-basis: 40%;
+        text-align: center;
+        background-color: $primary_color;
+      }
+      &__heading {
+        text-transform: capitalize;
+        font-size: 30px;
+        margin-bottom: 20px;
+        color: $white_color;
+        background: $black_color;
+        padding: 20px 0;
+      }
+      &__input, &__select {
+        width: 80%;
+        padding: 12px 0;
+        margin-bottom: 12px;
+        text-transform: capitalize;
+        padding-left: 10px;
+        font-size: 17px;
+        border-radius: 6px;
+        border: none;
+      }
+
+      &__btn{
+        @include btn(15px 30px, 10px 0, $black_color);
+        color: $white_color;
+        width: 40%;
+      }
+      &___content-btn{
+        @include btn(12px 16px, 10px 0, $primary_color);
+
+      }
+
+}
+
+
+
+
+
+
+
+
+
+

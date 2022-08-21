@@ -15,33 +15,12 @@
     flex-basis: 60%;
     margin-top: 7%;
   }
-  &__title {
-    text-transform: capitalize;
-    font-size: 24px;
-    color: #11cbd7;
-    position: relative;
-    &::after {
-      position: absolute;
-      content: "";
-      width: 90px;
-      height: 2px;
-      background-color: $primary_color;
-      top: 50%;
-      left: 24%;
-    }
-  }
-  &__heading {
-    text-transform: capitalize;
-    font-size: 40px;
-    margin: 19px 0;
-    color: #fa4659;
-  }
-  &__description {
-    line-height: 30px;
-  }
 }
 
-
+// common code
+.section{
+@include sectiton-title;
+}
 
 
 .about-right {
@@ -53,7 +32,7 @@
     flex-basis: 25%;
   }
   &__btn {
-    @include btn(10px 20px, 26px 0);
+    @include btn(10px 20px, 26px 0, #11CBD7);
 
   }
   &__content {

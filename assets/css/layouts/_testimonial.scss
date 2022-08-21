@@ -1,0 +1,52 @@
+.testimonial-area {
+  &__testimonial {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  &__single {
+    flex-basis: 32%;
+  }
+  &__box {
+    padding: 5px;
+    background-color: $card_color;
+    margin-bottom: 15px;
+    box-shadow: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  &__description {
+    display: inline;
+    line-height: 30px;
+  }
+  &__icon {
+    color: $primary_color;
+    font-size: 30px;
+  }
+}
+
+
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    &__img {
+        flex-basis: 31%;
+        text-align: center;
+        padding: 10px;
+      }
+      &__content {
+        flex-basis: 68%;
+        margin-top: 20px;
+      }
+      &__photo {
+        border-radius: 50%;
+        height: 80px;
+        width: 80px;
+      }
+      &__name{
+        font-size: 20px;
+        color: $primary_color;
+      }
+  }

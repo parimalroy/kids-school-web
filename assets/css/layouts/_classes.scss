@@ -40,7 +40,7 @@
     padding-right: 8px;
   }
   &__btn{
-    @include btn(8px 20px, 16px 0);
+    @include btn(8px 20px, 16px 0, #11CBD7);
     
   }
 }
