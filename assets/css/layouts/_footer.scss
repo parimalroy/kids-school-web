@@ -44,6 +44,24 @@
           color: $card_color;
         }
       }
+      &__input {
+        width: 80%;
+        font-size: 20px;
+        padding: 7px 0;
+        margin-bottom: 10px;
+        padding-left: 10px;
+        text-transform: capitalize;
+        border: none;
+        border-radius: 5px;
+      }
+      &__btn{
+        @include btn(8px 12px, 8px 0, $black_color);
+        color: $white_color;
+        width: 80%;
+        text-align: center;
+        // margin-left: 80px;
+        border-radius: 7%;
+      }
      
 }
 
@@ -68,5 +86,25 @@
   &__span {
     display: block;
     padding-left: 23px;
+  }
+}
+
+
+
+.map{
+  
+&__iframe {
+  width: 100%;
+  height: 300px;
+  border: 1px solid #333;
+}
+}
+.footer-bottom {
+  text-align: center;
+  padding: 19px 0;
+  border-top: 1px solid $black_color;
+  background-color: $primary_color;
+  &____description {
+    text-transform: capitalize;
   }
 }

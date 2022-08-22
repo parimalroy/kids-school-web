@@ -528,6 +528,7 @@ img {
 .teacher-area__single {
   flex-basis: 25%;
   text-align: center;
+  margin-bottom: 50px;
 }
 .teacher-area__photo {
   border-radius: circle;
@@ -536,10 +537,6 @@ img {
   width: 250px;
   border-radius: 50%;
   transition: 0.8s;
-}
-.teacher-area__photo:hover {
-  cursor: pointer;
-  opacity: 0.3;
 }
 .teacher-area__name {
   text-transform: capitalize;
@@ -711,6 +708,58 @@ img {
   background-color: #C6F1E7;
 }
 
+.gallery-area__gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.gallery-area__single {
+  flex-basis: 31%;
+  margin-bottom: 35px;
+  transition: 0.3s;
+  opacity: 0.7;
+}
+.gallery-area__single:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+
+.contact-area__contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.contact-area__form {
+  flex-basis: 63%;
+}
+.contact-area__address {
+  flex-basis: 36%;
+}
+.contact-area__input, .contact-area__textarea {
+  width: 80%;
+  font-size: 15px;
+  padding: 7px 0;
+  padding-left: 5px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.contact-area__textarea {
+  height: 100px;
+}
+.contact-area__btn {
+  text-transform: capitalize;
+  padding: 12px 18px;
+  background-color: #333;
+  margin: 15px 0;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+  color: #fff;
+}
+.contact-area__btn:hover {
+  background-color: #C6F1E7;
+}
+
 .footer-area {
   background-color: #11CBD7;
 }
@@ -756,6 +805,32 @@ img {
 .footer-area__icon:hover {
   color: #C6F1E7;
 }
+.footer-area__input {
+  width: 80%;
+  font-size: 20px;
+  padding: 7px 0;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 5px;
+}
+.footer-area__btn {
+  text-transform: capitalize;
+  padding: 8px 12px;
+  background-color: #333;
+  margin: 8px 0;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+  color: #fff;
+  width: 80%;
+  text-align: center;
+  border-radius: 7%;
+}
+.footer-area__btn:hover {
+  background-color: #C6F1E7;
+}
 
 .ul-box__heading {
   display: inline;
@@ -772,4 +847,20 @@ img {
 .ul-box__span {
   display: block;
   padding-left: 23px;
+}
+
+.map__iframe {
+  width: 100%;
+  height: 300px;
+  border: 1px solid #333;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 19px 0;
+  border-top: 1px solid #333;
+  background-color: #11CBD7;
+}
+.footer-bottom____description {
+  text-transform: capitalize;
 }/*# sourceMappingURL=style.css.map */
