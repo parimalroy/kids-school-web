@@ -1,0 +1,64 @@
+// slider plugin
+.slick-dots {
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  display: flex;
+  transform: translateX(-8%);
+  & li {
+    margin: 0 5px;
+    border-radius: 50%;
+    & button {
+      padding: 5px;
+      border-radius: 50%;
+      border: navajowhite;
+      color: wheat;
+      background-color: $black_color;
+      font-size: 10px;
+      font-weight: bold;
+    }
+    &.slick-active {
+      & button {
+        background: $primary_color;
+      }
+    }
+  }
+}
+
+.slick-next,
+.slick-prev {
+  &.slick-arrow {
+    display: none;
+  }
+}
+
+// scroll top plugin
+/* Pill style */
+#scrollUp {
+  bottom: 20px;
+  right: 20px;
+  background-color: $heading_footer_color;
+  color: #fff;
+  font-size: 12px;
+  font-family: sans-serif;
+  text-decoration: none;
+  opacity: .9;
+  padding: 15px 15px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 50%;
+  -webkit-transition: background 200ms linear;
+  -moz-transition: background 200ms linear;
+  -o-transition: background 200ms linear;
+  transition: background 200ms linear;
+  -webkit-backface-visibility: hidden;
+  font-style: italic;
+  font-weight: bold;
+clip-path: polygon(50% 0%, 75% 15%, 100% 35%, 78% 70%, 88% 98%, 49% 88%, 6% 98%, 23% 69%, 0% 35%, 23% 16%);
+
+}
+
+#scrollUp:hover {
+  background-color: $black_color;
+  font-style: normal;
+}

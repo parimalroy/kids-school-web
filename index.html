@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kid School</title>
     <link rel="stylesheet" href="assets/css/plugin/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/plugin/css/slick.css" />
+    <link rel="stylesheet" href="assets/css/plugin/css/slick.theme.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
@@ -39,7 +41,9 @@
               </li>
             </ul>
           </div>
-          <button class="header-area__button">join clas</button>
+          <div class="header-area__join">
+            <button class="header-area__button">join clas</button>
+          </div>
         </div>
       </div>
     </section>
@@ -257,9 +261,9 @@
             />
             <h2 class="classes-area__heading">drawing learning</h2>
             <p class="classes-area__description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
-              architecto cupiditate voluptas deserunt a quisquam delectus eos
-              cum, molestias est.
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
+              excepturi voluptatum numquam veniam dignissimos corrupti quos
+              obcaecati voluptates a ipsam?
             </p>
             <ul class="classes-area__box">
               <li class="classes-area__item">
@@ -391,12 +395,37 @@
     <!-- teacher section end -->
     <!-- testimonial section start -->
     <div class="section testimonial-area mt-100 mb-100">
-      <div class="title-area">
-        <h4 class="title-area__title">OUR ALL TESTIMONIAL</h4>
-        <h2 class="title-area__heading">What Parents Say!</h2>
-      </div>
       <div class="container">
-        <div class="testimonial-area__testimonial">
+        <div class="title-area">
+          <h4 class="title-area__title">OUR ALL TESTIMONIAL</h4>
+          <h2 class="title-area__heading">What Parents Say!</h2>
+        </div>
+
+        <div class="testimonial-area__testimonial slide">
+          <div class="testimonial-area__single">
+            <div class="testimonial-area__box">
+              <i class="fa-solid fa-quote-left testimonial-area__icon"></i>
+              <p class="testimonial-area__description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad
+                nulla fuga voluptatum a laudantium nam possimus magni neque
+                placeat eos.
+              </p>
+              <!-- <i class="fa-solid fa-quote-right testimonial-area__icon"></i> -->
+            </div>
+            <div class="parent">
+              <div class="parent__img">
+                <img
+                  class="parent__photo"
+                  src="assets/img/parent-1.jpg"
+                  alt="parent"
+                />
+              </div>
+              <div class="parent__content">
+                <h4 class="parent__name">Mr jon</h4>
+                <p class="parent__profession">profession</p>
+              </div>
+            </div>
+          </div>
           <div class="testimonial-area__single">
             <div class="testimonial-area__box">
               <i class="fa-solid fa-quote-left testimonial-area__icon"></i>
@@ -637,11 +666,15 @@
             </li>
             <li class="ul-box__item">
               <i class="ul-box__icon fa fa-angle-right"></i>
-              <h2 class="ul-box__heading"><a href="classes.html">Classes</a></h2>
+              <h2 class="ul-box__heading">
+                <a href="classes.html">Classes</a>
+              </h2>
             </li>
             <li class="ul-box__item">
               <i class="ul-box__icon fa fa-angle-right"></i>
-              <h2 class="ul-box__heading"><a href="gallery.html">Gallery</a></h2>
+              <h2 class="ul-box__heading">
+                <a href="gallery.html">Gallery</a>
+              </h2>
             </li>
           </ul>
         </div>
@@ -670,5 +703,9 @@
       </div>
     </footer>
     <!-- footer-bottom section end -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/jquery.scrollUp.min.js"></script>
+    <script src="assets/js/custom.js"></script>
   </body>
 </html>

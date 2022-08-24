@@ -6,7 +6,7 @@
     justify-content: space-between;
   }
   &__logo {
-    flex-basis: 30%;
+    flex-basis: 24%;
     color: $primary_color;
   }
   &__menu {
@@ -19,7 +19,7 @@
     font-size: 40px;
   }
   &__menu {
-    flex-basis: 52%;
+    flex-basis: 50%;
   }
   &__icon {
     font-size: 50px;
@@ -44,13 +44,18 @@
       border-bottom: 1px solid #E64848;
     }
   }
+  &__join{
+    flex-basis: 14%;
+  }
   &__button {
-    padding: 8px 20px;
-    font-size: 14px;
-    text-transform: capitalize;
-    border-radius: 10%;
-    border: none;
-    background-color: $primary_color;
-    color: $white_color;
+  	padding: 17px 25px;
+	font-size: 14px;
+	text-transform: capitalize;
+	border-radius: 10%;
+	border: none;
+	background-color: #11CBD7;
+	color: #fff;
+	margin-top: 14px;
   }
 }
+

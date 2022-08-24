@@ -1,0 +1,495 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  // for index
+  .container {
+    width: 970px;
+  }
+
+  .header-area {
+    &__icon {
+      font-size: 35px;
+    }
+    &__title {
+      font-size: 32px;
+    }
+    &__box {
+      margin-top: 12px;
+    }
+    &__item {
+      margin-left: 28px;
+    }
+    &__link {
+      font-size: 20px;
+    }
+
+    &__button {
+      padding: 14px 25px;
+
+      margin-top: 3px;
+    }
+  }
+
+  .teacher-area {
+    &__single {
+      flex-basis: 23%;
+    }
+  }
+
+  .section {
+    &__title {
+      &::after {
+        left: 27%;
+      }
+    }
+  }
+
+  .title-area {
+    &__title {
+      &::before {
+        left: 33%;
+      }
+      &::after {
+        right: 33%;
+      }
+    }
+  }
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  // for index
+  .container {
+    width: 750px;
+  }
+  p {
+    font-size: 15px;
+    line-height: 27px;
+  }
+  .header-area {
+    &__icon {
+      font-size: 25px;
+    }
+    &__title {
+      font-size: 23px;
+    }
+    &__box {
+      margin-top: 3px;
+    }
+    &__item {
+      margin-left: 23px;
+    }
+    &__link {
+      font-size: 17px;
+    }
+    &__button {
+      padding: 12px 18px;
+      margin-top: -5px;
+    }
+  }
+
+  .banner-area {
+    &__heading {
+      font-size: 60px;
+      padding: 25px 0;
+    }
+  }
+
+  .services-area {
+    &__icon {
+      font-size: 29px;
+      padding: 15px;
+    }
+    &__heading {
+      font-size: 20px;
+    }
+    &__description {
+      line-height: 27px;
+    }
+  }
+
+  .section {
+    &__title {
+      font-size: 18px;
+
+      &::after {
+        left: 26%;
+      }
+    }
+    &__heading {
+      font-size: 30px;
+      margin: 10px 0;
+    }
+    &__description {
+      line-height: 27px;
+    }
+  }
+
+  .about-right {
+    margin: 13px 0;
+    &__btn {
+      padding: 12px 20px;
+      font-size: 16px;
+    }
+    &__item {
+      font-size: 14px;
+    }
+  }
+
+  .title-area {
+    &__title {
+      &::before {
+        left: 29%;
+      }
+      &::after {
+        right: 29%;
+      }
+    }
+    &__heading {
+      font-size: 40px;
+    }
+  }
+
+  .classes-area {
+    &__heading {
+      margin: 15px;
+      font-size: 18px;
+    }
+    &__item {
+      font-size: 13px;
+    }
+    &__btn {
+      font-size: 15px;
+    }
+  }
+
+  .seat-area {
+    &__link {
+      font-size: 14px;
+    }
+    &___content-btn:hover {
+      background-color: #c6f1e7;
+    }
+    &___content-btn {
+      font-size: 14px;
+      padding: 8px 12px;
+    }
+    &__heading {
+      font-size: 30px;
+      padding: 15px 0;
+    }
+    &__input,
+    .seat-area__select {
+      padding: 10px 0;
+      font-size: 14px;
+    }
+    &__btn {
+      padding: 8px 20px;
+      font-size: 14px;
+    }
+  }
+
+  .teacher-area {
+    &__single {
+      flex-basis: 23%;
+    }
+    &__name {
+      font-size: 18px;
+    }
+  }
+
+  .blog-area {
+    &__heading {
+      margin: 10px 0;
+      font-size: 18px;
+    }
+    &__btn {
+      padding: 8px 12px;
+      font-size: 14px;
+    }
+  }
+
+  .footer-area {
+    &__icon {
+      font-size: 18px;
+      transition: 0.3s;
+    }
+    &__title {
+      font-size: 20px;
+    }
+  }
+
+  .ul-box {
+    &__heading {
+      font-size: 18px;
+    }
+    &__span {
+      font-size: 14px;
+    }
+  }
+
+  .footer-area {
+    &__input {
+      width: 100%;
+      font-size: 14px;
+    }
+    &__description {
+      line-height: 27px;
+      margin-bottom: 0px;
+    }
+    &__btn {
+      padding: 8px 12px;
+      font-size: 14px;
+    }
+  }
+}
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 300px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .header-area {
+    &__header {
+      justify-content: center;
+    }
+    &__logo {
+      flex-basis: 100%;
+    }
+    &__menu {
+      flex-basis: 100%;
+    }
+    &__box {
+      margin: 20px 0;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__join {
+      flex-basis: 100%;
+      margin-left: 40%;
+    }
+    &__link {
+      font-size: 18px;
+    }
+  }
+
+  .banner-area {
+    &__banner {
+      justify-content: center;
+    }
+    &__content {
+      flex-basis: 100%;
+    }
+    &__heading {
+      font-size: 51px;
+      padding: 18px 0;
+    }
+    &__image {
+      flex-basis: 100%;
+      border-bottom: 3px solid $primary_color;
+    }
+  }
+
+  .services-area {
+    &__single-service {
+      flex-basis: 100%;
+      justify-content: center;
+    }
+    &__heading {
+      font-size: 23px;
+    }
+  }
+
+  .about-area {
+    &__about {
+      justify-content: center;
+    }
+    &__image {
+      flex-basis: 100%;
+    }
+    &__content {
+      flex-basis: 100%;
+    }
+  }
+
+  .section {
+    &__title {
+      font-size: 16px;
+      &::after {
+        left: 35%;
+      }
+    }
+    &__heading {
+      font-size: 30px;
+    }
+  }
+
+  .about-right {
+    &__btn {
+      padding: 8px 12px;
+
+      font-size: 11px;
+    }
+    &__item {
+      font-size: 15px;
+      padding-bottom: 0px;
+      margin-bottom: 5px;
+    }
+  }
+
+  .title-area {
+    &__title {
+      &::before {
+        left: -5%;
+      }
+      &::after {
+        right: -5%;
+      }
+    }
+    &__heading {
+      font-size: 30px;
+    }
+  }
+
+  .classes-area {
+    &__classes {
+      justify-content: center;
+    }
+    &__single-class {
+      flex-basis: 100%;
+      margin-bottom: 30px;
+    }
+    &__heading {
+      font-size: 22px;
+    }
+  }
+
+  .seat-area {
+    &__seat {
+      justify-content: center;
+    }
+    &__content {
+      flex-basis: 100%;
+    }
+    &___content-btn {
+      padding: 8px 12px;
+
+      font-size: 14px;
+    }
+    &__link {
+      font-size: 14px;
+    }
+  }
+
+  .about-right {
+    &__icon {
+      padding-right: 1px;
+    }
+  }
+
+  .seat-area {
+    &__form {
+      flex-basis: 100%;
+      text-align: center;
+    }
+    &__btn {
+      padding: 15px 20px;
+      font-size: 14px;
+    }
+  }
+
+  .teacher-area {
+    &__single {
+      flex-basis: 46%;
+      text-align: center;
+    }
+    &__photo {
+      height: 200px;
+      width: 200px;
+    }
+    &__name {
+      font-size: 18px;
+    }
+    &__subject {
+      font-size: 13px;
+    }
+  }
+
+  .testimonial-area {
+    &__box {
+      padding: 5px 0;
+      width: 100%;
+    }
+  }
+
+  .parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    &__img {
+      flex-basis: 100%;
+      text-align: center;
+      padding: 10px;
+    }
+  }
+
+  .slick-dots {
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    display: flex;
+    transform: translateX(-20%);
+  }
+
+  .blog-area {
+    &__blog {
+      justify-content: center;
+    }
+    &__single {
+      flex-basis: 100%;
+      margin-bottom: 30px;
+    }
+    &__heading {
+      margin: 20px 0;
+      font-size: 22px;
+      text-transform: capitalize;
+      color: #fa4659;
+    }
+    &__btn {
+      padding: 8px 12px;
+
+      font-size: 14px;
+    }
+  }
+
+  .footer-area {
+    &__single {
+      flex-basis: 100%;
+      padding: 9px;
+      margin-bottom: 44px;
+      text-align: center;
+    }
+    &__title {
+      font-size: 22px;
+    }
+    &__input {
+      width: 100%;
+      font-size: 16px;
+    }
+    &__btn {
+      font-size: 14px;
+    }
+  }
+
+  .ul-box {
+    &__heading {
+      font-size: 25px;
+    }
+  }
+}

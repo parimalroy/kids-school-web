@@ -225,7 +225,7 @@ img {
   justify-content: space-between;
 }
 .header-area__logo {
-  flex-basis: 30%;
+  flex-basis: 24%;
   color: #11CBD7;
 }
 .header-area__menu {
@@ -238,7 +238,7 @@ img {
   font-size: 40px;
 }
 .header-area__menu {
-  flex-basis: 52%;
+  flex-basis: 50%;
 }
 .header-area__icon {
   font-size: 50px;
@@ -263,14 +263,18 @@ img {
   color: #11CBD7;
   border-bottom: 1px solid #E64848;
 }
+.header-area__join {
+  flex-basis: 14%;
+}
 .header-area__button {
-  padding: 8px 20px;
+  padding: 17px 25px;
   font-size: 14px;
   text-transform: capitalize;
   border-radius: 10%;
   border: none;
   background-color: #11CBD7;
   color: #fff;
+  margin-top: 14px;
 }
 
 .banner-area {
@@ -477,6 +481,7 @@ img {
 .classes-area__single-class {
   flex-basis: 32%;
   background-color: #C6F1E7;
+  border: 2px solid #C6F1E7;
 }
 .classes-area__heading {
   text-align: center;
@@ -629,6 +634,7 @@ img {
   box-shadow: 10px;
   border: 1px solid #ddd;
   border-radius: 10px;
+  margin: 0 7px;
 }
 .testimonial-area__description {
   display: inline;
@@ -671,6 +677,7 @@ img {
 .blog-area__single {
   flex-basis: 32%;
   background-color: #C6F1E7;
+  border: 2px solid #C6F1E7;
 }
 .blog-area__heading {
   margin: 20px 0;
@@ -863,4 +870,436 @@ img {
 }
 .footer-bottom____description {
   text-transform: capitalize;
+}
+
+.slick-dots {
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  display: flex;
+  transform: translateX(-8%);
+}
+.slick-dots li {
+  margin: 0 5px;
+  border-radius: 50%;
+}
+.slick-dots li button {
+  padding: 5px;
+  border-radius: 50%;
+  border: navajowhite;
+  color: wheat;
+  background-color: #333;
+  font-size: 10px;
+  font-weight: bold;
+}
+.slick-dots li.slick-active button {
+  background: #11CBD7;
+}
+
+.slick-next.slick-arrow,
+.slick-prev.slick-arrow {
+  display: none;
+}
+
+/* Pill style */
+#scrollUp {
+  bottom: 20px;
+  right: 20px;
+  background-color: #FA4659;
+  color: #fff;
+  font-size: 12px;
+  font-family: sans-serif;
+  text-decoration: none;
+  opacity: 0.9;
+  padding: 15px 15px;
+  border-radius: 50%;
+  transition: background 200ms linear;
+  -webkit-backface-visibility: hidden;
+  font-style: italic;
+  font-weight: bold;
+  -webkit-clip-path: polygon(50% 0%, 75% 15%, 100% 35%, 78% 70%, 88% 98%, 49% 88%, 6% 98%, 23% 69%, 0% 35%, 23% 16%);
+          clip-path: polygon(50% 0%, 75% 15%, 100% 35%, 78% 70%, 88% 98%, 49% 88%, 6% 98%, 23% 69%, 0% 35%, 23% 16%);
+}
+
+#scrollUp:hover {
+  background-color: #333;
+  font-style: normal;
+}
+
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+  .header-area__icon {
+    font-size: 35px;
+  }
+  .header-area__title {
+    font-size: 32px;
+  }
+  .header-area__box {
+    margin-top: 12px;
+  }
+  .header-area__item {
+    margin-left: 28px;
+  }
+  .header-area__link {
+    font-size: 20px;
+  }
+  .header-area__button {
+    padding: 14px 25px;
+    margin-top: 3px;
+  }
+  .teacher-area__single {
+    flex-basis: 23%;
+  }
+  .section__title::after {
+    left: 27%;
+  }
+  .title-area__title::before {
+    left: 33%;
+  }
+  .title-area__title::after {
+    right: 33%;
+  }
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .container {
+    width: 750px;
+  }
+  p {
+    font-size: 15px;
+    line-height: 27px;
+  }
+  .header-area__icon {
+    font-size: 25px;
+  }
+  .header-area__title {
+    font-size: 23px;
+  }
+  .header-area__box {
+    margin-top: 3px;
+  }
+  .header-area__item {
+    margin-left: 23px;
+  }
+  .header-area__link {
+    font-size: 17px;
+  }
+  .header-area__button {
+    padding: 12px 18px;
+    margin-top: -5px;
+  }
+  .banner-area__heading {
+    font-size: 60px;
+    padding: 25px 0;
+  }
+  .services-area__icon {
+    font-size: 29px;
+    padding: 15px;
+  }
+  .services-area__heading {
+    font-size: 20px;
+  }
+  .services-area__description {
+    line-height: 27px;
+  }
+  .section__title {
+    font-size: 18px;
+  }
+  .section__title::after {
+    left: 26%;
+  }
+  .section__heading {
+    font-size: 30px;
+    margin: 10px 0;
+  }
+  .section__description {
+    line-height: 27px;
+  }
+  .about-right {
+    margin: 13px 0;
+  }
+  .about-right__btn {
+    padding: 12px 20px;
+    font-size: 16px;
+  }
+  .about-right__item {
+    font-size: 14px;
+  }
+  .title-area__title::before {
+    left: 29%;
+  }
+  .title-area__title::after {
+    right: 29%;
+  }
+  .title-area__heading {
+    font-size: 40px;
+  }
+  .classes-area__heading {
+    margin: 15px;
+    font-size: 18px;
+  }
+  .classes-area__item {
+    font-size: 13px;
+  }
+  .classes-area__btn {
+    font-size: 15px;
+  }
+  .seat-area__link {
+    font-size: 14px;
+  }
+  .seat-area___content-btn:hover {
+    background-color: #c6f1e7;
+  }
+  .seat-area___content-btn {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+  .seat-area__heading {
+    font-size: 30px;
+    padding: 15px 0;
+  }
+  .seat-area__input,
+.seat-area .seat-area__select {
+    padding: 10px 0;
+    font-size: 14px;
+  }
+  .seat-area__btn {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+  .teacher-area__single {
+    flex-basis: 23%;
+  }
+  .teacher-area__name {
+    font-size: 18px;
+  }
+  .blog-area__heading {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  .blog-area__btn {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+  .footer-area__icon {
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  .footer-area__title {
+    font-size: 20px;
+  }
+  .ul-box__heading {
+    font-size: 18px;
+  }
+  .ul-box__span {
+    font-size: 14px;
+  }
+  .footer-area__input {
+    width: 100%;
+    font-size: 14px;
+  }
+  .footer-area__description {
+    line-height: 27px;
+    margin-bottom: 0px;
+  }
+  .footer-area__btn {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 300px;
+  }
+  p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .header-area__header {
+    justify-content: center;
+  }
+  .header-area__logo {
+    flex-basis: 100%;
+  }
+  .header-area__menu {
+    flex-basis: 100%;
+  }
+  .header-area__box {
+    margin: 20px 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header-area__join {
+    flex-basis: 100%;
+    margin-left: 40%;
+  }
+  .header-area__link {
+    font-size: 18px;
+  }
+  .banner-area__banner {
+    justify-content: center;
+  }
+  .banner-area__content {
+    flex-basis: 100%;
+  }
+  .banner-area__heading {
+    font-size: 51px;
+    padding: 18px 0;
+  }
+  .banner-area__image {
+    flex-basis: 100%;
+    border-bottom: 3px solid #11CBD7;
+  }
+  .services-area__single-service {
+    flex-basis: 100%;
+    justify-content: center;
+  }
+  .services-area__heading {
+    font-size: 23px;
+  }
+  .about-area__about {
+    justify-content: center;
+  }
+  .about-area__image {
+    flex-basis: 100%;
+  }
+  .about-area__content {
+    flex-basis: 100%;
+  }
+  .section__title {
+    font-size: 16px;
+  }
+  .section__title::after {
+    left: 35%;
+  }
+  .section__heading {
+    font-size: 30px;
+  }
+  .about-right__btn {
+    padding: 8px 12px;
+    font-size: 11px;
+  }
+  .about-right__item {
+    font-size: 15px;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+  }
+  .title-area__title::before {
+    left: -5%;
+  }
+  .title-area__title::after {
+    right: -5%;
+  }
+  .title-area__heading {
+    font-size: 30px;
+  }
+  .classes-area__classes {
+    justify-content: center;
+  }
+  .classes-area__single-class {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+  .classes-area__heading {
+    font-size: 22px;
+  }
+  .seat-area__seat {
+    justify-content: center;
+  }
+  .seat-area__content {
+    flex-basis: 100%;
+  }
+  .seat-area___content-btn {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+  .seat-area__link {
+    font-size: 14px;
+  }
+  .about-right__icon {
+    padding-right: 1px;
+  }
+  .seat-area__form {
+    flex-basis: 100%;
+    text-align: center;
+  }
+  .seat-area__btn {
+    padding: 15px 20px;
+    font-size: 14px;
+  }
+  .teacher-area__single {
+    flex-basis: 46%;
+    text-align: center;
+  }
+  .teacher-area__photo {
+    height: 200px;
+    width: 200px;
+  }
+  .teacher-area__name {
+    font-size: 18px;
+  }
+  .teacher-area__subject {
+    font-size: 13px;
+  }
+  .testimonial-area__box {
+    padding: 5px 0;
+    width: 100%;
+  }
+  .parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .parent__img {
+    flex-basis: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+  .slick-dots {
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    display: flex;
+    transform: translateX(-20%);
+  }
+  .blog-area__blog {
+    justify-content: center;
+  }
+  .blog-area__single {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+  .blog-area__heading {
+    margin: 20px 0;
+    font-size: 22px;
+    text-transform: capitalize;
+    color: #fa4659;
+  }
+  .blog-area__btn {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+  .footer-area__single {
+    flex-basis: 100%;
+    padding: 9px;
+    margin-bottom: 44px;
+    text-align: center;
+  }
+  .footer-area__title {
+    font-size: 22px;
+  }
+  .footer-area__input {
+    width: 100%;
+    font-size: 16px;
+  }
+  .footer-area__btn {
+    font-size: 14px;
+  }
+  .ul-box__heading {
+    font-size: 25px;
+  }
 }/*# sourceMappingURL=style.css.map */
