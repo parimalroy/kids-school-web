@@ -62,3 +62,24 @@ clip-path: polygon(50% 0%, 75% 15%, 100% 35%, 78% 70%, 88% 98%, 49% 88%, 6% 98%,
   background-color: $black_color;
   font-style: normal;
 }
+
+
+// slick nav style
+.slicknav_menu {
+	display:none;
+}
+.slicknav_nav a {
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 10px;
+  color: $primary_color;
+}
+
+.slicknav_menu {
+	background-color: $secondary_color;
+}
+.slicknav_btn {
+	background-color: $primary_color;
+}

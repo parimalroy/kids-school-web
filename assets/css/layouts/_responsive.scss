@@ -269,6 +269,7 @@
       margin: 20px 0;
       flex-direction: column;
       align-items: center;
+      display: none;
     }
     &__join {
       flex-basis: 100%;
@@ -426,6 +427,9 @@
       padding: 5px 0;
       width: 100%;
     }
+    &__single {
+      flex-basis: 100%;
+    }
   }
 
   .parent {
@@ -492,4 +496,36 @@
       font-size: 25px;
     }
   }
+
+  .contact-area {
+    &__contact {
+      justify-content: center;
+    }
+    &__form {
+      flex-basis: 100%;
+      text-align: center;
+    }
+    &__input,
+    .contact-area__textarea {
+      width: 100%;
+    }
+    &__address {
+      flex-basis: 100%;
+      text-align: center;
+    }
+  }
+
+  .slicknav_menu {
+    display: block;
+  }
 }
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .main {
+    width: 450px;
+  }
+}
+
